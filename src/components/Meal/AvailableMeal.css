@@ -1,0 +1,36 @@
+.available-meal{
+    text-align: center;
+    background-color: white;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 14px;
+    padding: 0.5rem;
+    box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+}
+.available-meal__list{
+    padding-left: 0.5rem;
+    font-size: large;
+    width:100%;
+    height:70px;
+}
+.available-meal__ul{
+    padding: 0.5rem;
+    list-style: none;
+}
+.available-meal__listinner{
+    display: flex;
+    left: 0;
+    width:200px;
+    height: 69px;
+    background-color: white;
+
+}
+.italic{
+    font-style: italic;
+}
+.price{
+    color: rgb(243, 134, 33);
+}

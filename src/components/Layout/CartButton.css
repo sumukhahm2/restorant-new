@@ -1,0 +1,27 @@
+button{
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: #4d1601;
+    color: white;
+    padding: 0.75rem 3rem;
+    display:block;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+   bottom: 5px;
+    
+}
+
+
+.cart-count{
+    margin-right: 20px;
+    width:30px;
+    display:inline-block; 
+  background: rgba(231, 72, 10, 0.445);
+  border: 0.5px rgba(231, 72, 10, 0.445);
+  border-radius: 20px;
+}

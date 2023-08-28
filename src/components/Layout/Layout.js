@@ -1,14 +1,16 @@
-import React from 'react'
+import {Fragment} from 'react'
 import './Layout.css'
+import CartButton from './CartButton';
 const Layout=()=>{
    return(
-        <header className='header'>
+    <Fragment>
+       <header className='header'>
            <h2>React Meals </h2> 
-            <div className='cart-button'>
-            <button className='btn'>  <i className="fa fa-shopping-cart"></i>Your Cart <div className='cart-count'>0</div></button>
-
-            </div>
+           <CartButton></CartButton>
         </header>
+        
+    </Fragment>
+        
    );
 }
 export default Layout
