@@ -1,7 +1,7 @@
 import {Fragment} from 'react'
 import './Layout.css'
 import CartButton from './CartButton';
-const Layout=()=>{
+const Layout=(props)=>{
    return(
     <Fragment>
        <header className='header'>
