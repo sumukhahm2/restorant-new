@@ -1,0 +1,47 @@
+.available-meal__listinner{
+    display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+.available-meal__listinner h3{
+    margin: 0 0 0.25rem 0;
+}
+.description{
+    font-style: italic;
+}
+.price{
+    margin-top: 0.25rem;
+  font-weight: bold;
+  color: #ad5502;
+  font-size: 1.25rem;
+}
+input{
+  font-size:xx-small;
+  width: 40px;
+}
+label{
+  font-weight: bolder;
+  margin: 0.5rem;
+}
+.btn-add{
+  cursor: pointer;
+    font: inherit;
+    width:80px;
+    border: none;
+    background-color: #4d1601;
+    color: white;
+    display:block;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+    position: relative;
+    margin: 1rem;
+    margin-left: 2.5rem;
+    right: 0;
+   bottom: 5px;
+   text-align: center;
+
+}

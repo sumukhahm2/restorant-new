@@ -1,5 +1,6 @@
 import React from 'react'
 import './AvailableMeal.css'
+import MealItem from './MealItems/MealItem';
 
   const AvailableMeals=()=>{
     const DUMMY_MEALS = [
@@ -28,13 +29,7 @@ import './AvailableMeal.css'
           price: 18.99,
         },
       ];
-   const mealsList=DUMMY_MEALS.map(meal=><li className='available-meal__list' key={meal.id}>
-    <div className='available-meal__listinner'>
-        <p>{meal.name}</p>
-        <p className='italic'>{meal.description}</p>
-        <p className='price'>${meal.price}</p>
-    </div>
-  </li>)    
+   const mealsList=DUMMY_MEALS.map(meal=><MealItem key={meal.id} name={meal.name} description={meal.description} price={meal.price}/>)  
 
     return(
         <section className='available-meal'>

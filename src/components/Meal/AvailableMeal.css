@@ -1,3 +1,5 @@
+
+
 .available-meal{
     text-align: center;
     background-color: white;
@@ -20,17 +22,4 @@
     padding: 0.5rem;
     list-style: none;
 }
-.available-meal__listinner{
-    display: flex;
-    left: 0;
-    width:200px;
-    height: 69px;
-    background-color: white;
 
-}
-.italic{
-    font-style: italic;
-}
-.price{
-    color: rgb(243, 134, 33);
-}
