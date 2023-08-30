@@ -9,21 +9,33 @@
   }
   .overlay {
     position: fixed;
+    margin: 0.2rem;
     background-color: aliceblue;
     color:black;
-    top: 30vh;
-    left: 10%;
-    width: 50%;
-   margin-left: 200px;
-    z-index: 100;
+    top: 20vh;
+    left: 5%;
+    width: 90%;
+    height: 20%;
+   padding-left: 2rem;
+    padding-bottom: 10rem;
+    border-radius: 14px;
+    box-shadow:  0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 30;
+    animation: slide-down 300ms ease-out forwards;
     overflow: hidden;
+  }
+  @media (min-width: 768px) {
+    .overlay {
+      width: 40rem;
+      left: calc(50% - 20rem);
+    }
   }
   .cart-overlay{
     text-align: center;
    justify-content: center;
     width: 50%;
     margin: auto;
-    margin-top: -5rem;
+    margin-top: -2rem;
     position: relative;
     background-color:antiquewhite;
     color: white;
@@ -31,3 +43,68 @@
     padding: 1rem;
     box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
 }
+@keyframes slide-down {
+    from {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .btn-close{
+    cursor: pointer;
+    font: inherit;
+    background-color:white;
+    color:black;
+    padding: 0.5rem 1.5rem;
+    display:block;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+    position: absolute;
+    right: -20px;
+    margin-right: 150px;
+   bottom: 5px;
+  }
+  .btn-order{
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: #4d1601;
+    color: white;
+    padding: 0.6rem 1.5rem;
+    display:block;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+   bottom: 5px;
+  }
+  .total-amt{
+    width:40%;
+  height:40%;
+    top:0;
+    display: flex;
+    float: left;
+  }
+  h3{
+    width:15%;
+    display: flex;
+  }
+  .amount{
+    width:40%;
+    display: flex;
+    float: left;
+    margin-left: 350px;
+    justify-content:flex-end;
+    right: 0;
+    font-weight: bolder;
+  
+  }
+

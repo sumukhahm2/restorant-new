@@ -10,7 +10,11 @@ const Backdrop=(props)=>{
    ); 
 }
 
+
 const ModalOverlay=(props)=>{
+  const closeCartHandler=()=>{
+    props.onConfirm()
+  }
   return(
   <div className='cart-overlay'>
    <div className='overlay'>
@@ -22,8 +26,8 @@ const ModalOverlay=(props)=>{
         32.66
     </div>
     <div className='buttons'>
-        <button>Close</button>
-        <button>Order</button>
+        <button className='btn-close' onClick={closeCartHandler}>Close</button>
+        <button className='btn-order'>Order</button>
     </div>
    </div>
    </div>
@@ -33,10 +37,11 @@ const ModalOverlay=(props)=>{
 }
 
 const CartOverlay=(props)=>{
+
   return(
     <Fragment>
-        {ReactDOM.createPortal(<Backdrop onConfirm={props.onConfirm}/>,document.getElementById('backdrop'))}
-        {ReactDOM.createPortal(<ModalOverlay />,document.getElementById('modal-overlay'))}
+       {ReactDOM.createPortal(<Backdrop onConfirm={props.onConfirm}/>,document.getElementById('backdrop'))}
+        {ReactDOM.createPortal(<ModalOverlay onConfirm={props.onConfirm}/>,document.getElementById('modal-overlay'))}
     </Fragment>
   );
 }
