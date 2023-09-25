@@ -3,15 +3,16 @@ import Layout from './components/Layout/Layout';
 import './App.css'
 import RestorantImage from './components/Layout/RestorantImage';
 import Meal from './components/Meal/Meal';
+import CartProvider from './components/store/CartProvider'
 function App() {
   return (
-   <React.Fragment>
+   <CartProvider>
       <Layout></Layout>
       <main className='main'>
       <RestorantImage/>
       <Meal/>
       </main>
-     </React.Fragment>
+     </CartProvider>
   );
 }
 

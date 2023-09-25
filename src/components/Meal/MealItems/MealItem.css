@@ -1,5 +1,5 @@
 .available-meal__listinner{
-    display: flex;
+   display:inline;
   justify-content: space-between;
   margin: 1rem;
   padding-bottom: 1rem;
@@ -7,19 +7,27 @@
 }
 .available-meal__listinner h3{
     margin: 0 0 0.25rem 0;
+    color:black;
+    font-size: x-large;
+    width:290px
 }
 .description{
     font-style: italic;
+    width: 290px;
+    justify-content: center;
+   color:black;
+   font-size: x-large;
 }
 .price{
     margin-top: 0.25rem;
   font-weight: bold;
-  color: #ad5502;
+  color: #0502ad;
   font-size: 1.25rem;
 }
 input{
   font-size:xx-small;
-  width: 40px;
+  width: 60px;
+  
 }
 label{
   font-weight: bolder;
@@ -44,4 +52,42 @@ label{
    bottom: 5px;
    text-align: center;
 
+}
+.form-div{
+  font-size: large;
+  display: flex;
+  float:inline-end;
+  position: relative;
+}
+.dishes-image{
+  display: flex;
+  width: 390px;
+  height: 300px;
+  margin-left: 0;
+  margin-right: 0;
+  border: 2px ridge black;
+  border-radius: 10px;
+
+}
+.images{
+  justify-content: center;
+  width: 385px;
+  height: 299px; ;
+  display: block;
+}
+h3{
+  width:190px;
+  justify-content: center;
+}
+.meals{
+  justify-content: center;
+  margin-left: 0;
+  font-size: larger;
+  width: 300px;
+  height:80px;
+  text-align: center;
+ 
+}
+.error{
+  color:red;
 }
