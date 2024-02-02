@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bbe78c0d.css",
+    "main.js": "/static/js/main.301a2bf5.js",
+    "static/media/valentin-b-kremer-MzVxrOWYmQQ-unsplash.jpg": "/static/media/valentin-b-kremer-MzVxrOWYmQQ-unsplash.4cbd205ccd1eabdcac3a.jpg",
+    "static/media/amin-ramezani-N4patgmWCsE-unsplash.jpg": "/static/media/amin-ramezani-N4patgmWCsE-unsplash.52c33a0ab231a6a3a549.jpg",
+    "static/media/mahmoud-fawzy-Dbx6-XZY6Dg-unsplash.jpg": "/static/media/mahmoud-fawzy-Dbx6-XZY6Dg-unsplash.051c55d0f28f7fbbf52b.jpg",
+    "static/media/alexander-mils-nG4ZimMIO_k-unsplash.jpg": "/static/media/alexander-mils-nG4ZimMIO_k-unsplash.d1403801cad6894d5396.jpg",
+    "static/media/daria-volkova-StuKmdIvbwE-unsplash.jpg": "/static/media/daria-volkova-StuKmdIvbwE-unsplash.72f3dad49b0a3e4cf2ec.jpg",
+    "index.html": "/index.html",
+    "main.bbe78c0d.css.map": "/static/css/main.bbe78c0d.css.map",
+    "main.301a2bf5.js.map": "/static/js/main.301a2bf5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbe78c0d.css",
+    "static/js/main.301a2bf5.js"
+  ]
+}
